@@ -35,11 +35,11 @@
               <input type="password" class="form-control" id="inputPassword4">
             </div>
             <div class="col-12">
-              <label for="inputAddress" class="form-label">Primeiro nome</label>
+              <label for="inputAddress" class="form-label">Nome</label>
               <input type="text" class="form-control" id="inputAddress" placeholder="">
             </div>
             <div class="col-12">
-              <label for="inputAddress2" class="form-label">Ultímo nome</label>
+              <label for="inputAddress2" class="form-label">Sobrenome</label>
               <input type="text" class="form-control" id="inputAddress2" placeholder="">
             </div>
             <div class="col-md-6">

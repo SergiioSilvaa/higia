@@ -50,8 +50,8 @@ font-size: 80px !important;
 
 .tf{
    position: absolute; 
-   transform:translate(-90%, -89%);
-   left: 54%;
+   transform:translate(-90%, -250%);
+   left: 45%;
    object-fit: fill;
 }
 
@@ -80,4 +80,35 @@ font-size: 80px !important;
 
 .sw{
    object-fit: fill;
+}
+
+#centralizar{
+   background: white;
+    margin-bottom: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+
+}
+
+#btnmenu{
+   margin-left: 8px;
+   margin-right: 8px;
+   width: 123px;
+   height: 35px;
+   text-align: center;
+   font-size: 18px;
+}
+
+#frasemenu{
+   width: 280px;
+   float: right;
+   color: #FFC107;
+}
+
+#logohigia{
+   height: 40px;
+   width: 30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
