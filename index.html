@@ -4,15 +4,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit="cover">
+    <meta name="msapplication-tap-highlight" content="no">
+       
+  
     <!-- Links  -->
 
 
     <link href="css/tl.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     
@@ -25,21 +26,22 @@
 <body>
  
       <!--  NavBar -->
-  <nav class="navbar navbar-expand-lg  text-white bg-dark text-white ">
+  <nav class="navbar navbar-expand-md text-white bg-dark text-white " id="navbarToggleExternalContent">
     <a class="navbar-brand nav-link disabled text-white" href="index.html"><img id="logohigia" src="img/logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+    
+      <span class="navbar-toggler-icon"></span>
+
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="navbarNavAltMarkup" id="navbarToggleExternalContent">
       <div class="navbar-nav text-white">
-        <a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/login.php" role="button">Login<span class="sr-only">(current)</span></a>
-        <a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/cadastro.php" role="button">Cadastro</a>
-        <a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/desenvolvedores.php" role="button">Contato</a> 
-     
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/login.php" role="button">Login</a></li>
+        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/cadastro.php" role="button">Cadastro</a></li>
+        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/desenvolvedores.php" role="button">Contato</a></li> 
+      </ul>
       </div>    
     </div>
-
-
     <span id="frasemenu" class="navbar-text">
     DISPOSIÇÃO PARA A SAÚDE
     </span>
@@ -100,15 +102,15 @@
 <br><br>
 
 <h4 class="text-center">
- O aplicativo Higia, veio para auxiliar a todas as pessoas que precisam de um profissional da área da saúde,
+ O aplicativo Higia, surgiu para auxiliar a todas as pessoas que precisam de um profissional da área da saúde,
  seja ele um educador físico, fisioterapeuta, professor de dança, artes marciais, entre outros,
- que possam auxiliar na evolução e ou manutenção da saúde física e mental.
+ que possam oferecer a assistência necessária na evolução e ou manutenção da saúde física e mental.
  <br><br>Nos dias atuais, nota-se a dificuldade em encontrar tempo e disposição para cuidar da saúde.
- Visando encurtar a distância e intermediar o acesso entre profissional e cliente, de maneira prática e efetiva,
- gerando trabalho e saúde para ambos.
- <br><br>O Higia, ainda proporciona aos profissionais que precisam de maior divulgação e ascensão do seu trabalho. 
+ Diante disto, o sistema foi desenvolvido, visando encurtar a distância e intermediar o acesso entre profissional e cliente,
+ de maneira prática e efetiva, gerando praticidade, trabalho, e saúde para ambos.
+ <br><br>O Higia, ainda proporciona visibilidade aos profissionais que precisam de maior divulgação e ascensão do seu trabalho. 
  Pois, com este aplicativo, o portfólio do profissional estará disponível para milhares de potenciais clientes,
- através de filtros que buscam igualdade entre características básicas, précadastrados por ambos usuários. 
+ através de filtros que buscam igualdade entre características básicas, pré-cadastrados por ambos usuários. 
 </h4>
 
 <br><br><br><br>
@@ -117,7 +119,7 @@
 
   
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 <h2 class="text-center">Como funciona</h2>
 
@@ -140,29 +142,29 @@
   característica da atividade que deseja treinar e principalmente quais as características esta pessoa busca em um profissional.   
   </h4>
 
- <br><br><br><br><br><br><br><br>
+ <br><br><br><br>
 
 
   <img src="img/1saude_auto_x2.jpg" class="img-fluid" alt="Responsive image" style=" height:500; width:80%;" id="sda">
 
-  <br><br>
+  <br><br><br><br>
 
   <h2 id="produtos" class="text-center">Produto oferecido</h2>
 
-
   <h4 class="text-center">
-  Oferecemos um sistema de cadastro e filtro de informações, visando comparar e apresentar dados uteis. Onde, se encontra o profissional, que busca
-  aumentar a visibilidade de seu portfólio profissional e novas oportunidades de trabalho e o cliente que busca por melhoria da saúde.
-  Nosso sistema, visa apenas facilitar a busca por usuarios, onde o primeiro contato sera atraves do nosso Chat,
-  a partir dai, toda interacao sera feita da maneira que ambos preferirem. 
+    Oferecemos um sistema de cadastro e filtro de informações, visando comparar e apresentar dados úteis.
+    Onde, se encontra o Profissional, que busca aumentar a visibilidade de seu portfólio profissional
+    e novas oportunidades de trabalho e o Cliente que busca por melhoria da saúde. Nosso sistema, tem como base,
+    facilitar o contato entre nossos usuários, onde o primeiro contato será através do nosso Chat,
+    à partir daí, toda interação será feita de maneira privada. 
   </h4>
 
-  <br><br><br><br><br><br><br><br>
+  <br><br><br><br>
 
   <img src="img/ivan-torres-SVITzHh1Cdg-unsplash.jpg" class="img-fluid" alt="Responsive image" style=" height:500; width:80%;" id="sw">
 
 
-  <br><br><br><br><br><br><br><br>
+  <br><br><br><br>
 
   <h2 class="text-center">Promoções</h2>
 
@@ -171,48 +173,29 @@
   </h4> 
 
 
-           <!--   -->
-       <br><br><br><br><br><br><br><br>
+       <br><br><br><br>
+       <img src="img/logoextendida.png" class="img-fluid" alt="Responsive image">
+       <br><br>
 
-           <!-- Markting de apoio-->
-
-       <img src="img/madison-lavern-4gcqRf3-f2I-unsplash.jpg" class="img-fluid" alt="Responsive image" style=" height:600px; width:100%;" id="tf">
-
-
-       <div class="tf">
-        <h4>Participe dessa experiência.
-        </h4>
+      <div id="divbtn">
+        <h2 alt="Responsive image">Participe dessa experiência.</h2>
       </div>
-
-      <br><br>
-
-      <img src="img/alexander-redl-d3bYmnZ0ank-unsplash.jpg" class="img-fluid" alt="Responsive image" style=" height:600px; width:100%;" id="rt">
-      <br><br>
-
-
-      <div class="rt">
-        <a href="app/cadastro.php"><h4>Cadastre-se já.</h4></a>
+      <div id="divbtn">
+        <a id="btncadastro" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/cadastro.php" role="button">Cadastre-se já</a>
       </div>
-
-    <!--   -->
-
 
     <!-- Final -->
 
-      <div class="card-group bg-dark ">
-        <p class="text-right text-white">
-
-     </p>
-        
-   </div>
-
   </div>
-         <!--  -->
-
-
+  <div class="card-group bg-dark ">
+    <p id="copyright">
+      © 2021 Higia - Disposicao para a Saude | Projeto TCC
+ </p>
+    
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    
+  <script src="js/index.js"></script>
   
 
 </body>

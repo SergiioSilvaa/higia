@@ -22,7 +22,7 @@
   
   </head>
 <body>
-    
+    <div id="centralizar">
     <div class="container-md">
    
         <form class="row g-3">
@@ -69,6 +69,7 @@
             </div>
           </form>
 
+    </div>
     </div>
    
   <!-- Bootstrap core JavaScript -->

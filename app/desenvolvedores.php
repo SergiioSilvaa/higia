@@ -15,7 +15,7 @@
     
     <section id="criadores">
         <div class="container">
-            <h1 class="heading">Participação</h1>
+            <h1 class="heading">Equipe de Desenvolvimento</h1>
             <div class="card-wrapper">
                 <div class="card">
                         <img src="../img/vaun0815-lGjzLRmrI1M-unsplash.jpg" alt="card background" class="card-img">
@@ -23,7 +23,7 @@
                    <h1>Gabriel Oliveira</h1>
                    <p class="job-title">Programador</p>
                    <p class="about">
-                       Ola, eu sou Gabriel Oliveira.
+                   Olá, eu sou Gabriel Oliveira.
                       
                    </p>
                    <a href="#" class="btn">Contato</a>
@@ -36,7 +36,7 @@
                <h1>Letícia Velke</h1>
                <p class="job-title">Programadora</p>
                <p class="about">
-                   Ola eu sou a Letícia Velke
+                Olá, eu sou Letícia Velke.
                </p>
                <a href="#" class="btn">Contato</a>
               
@@ -47,7 +47,7 @@
            <h1>José Higor</h1>
            <p class="job-title">Programador</p>
            <p class="about">
-              Ola eu sou o José Higor
+           Olá, eu sou o José Higor.
            </p>
            <a href="#" class="btn">Contato</a>
            
@@ -59,7 +59,7 @@
      <h1>Sergio Silva</h1>
      <p class="job-title">Programador</p>
      <p class="about">
-        Ola eu sou o Sergio Silva
+     Olá, eu sou o Sergio Silva.
      </p>
      <a href="#" class="btn">Contato</a>
    
@@ -67,6 +67,7 @@
 
             </div>
         </div>
+        <a href="C:\wamp64\www\higia\index.html" class="btn">Voltar</a>
     </section>
   
 
